@@ -15,15 +15,16 @@ function Home({ navigation, firebase }) {
 
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
-      <Button
-        title="Signout"
-        onPress={handleSignout}
-        titleStyle={{
-          color: "#F57C00"
-        }}
-        type="clear"
-      />
+      <View style={{ paddingTop: 200 }}>
+        <Button
+          title="Signout"
+          onPress={handleSignout}
+          titleStyle={{
+            color: "#F57C00"
+          }}
+          type="clear"
+        />
+      </View>
     </View>
   );
 }
