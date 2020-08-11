@@ -18,19 +18,21 @@ and scan the qr code with expo to launch the app
 <p float="left">
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/1.gif" width="300" height="600"> 
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/2.gif" width="300" height="600">
-<img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/3.gif" width="300" height="600">
 </p>
 <p float="left">
+<img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/3.gif" width="300" height="600">
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/4.gif" width="300" height="600">
+</p>
+<p float="left">
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/1.jpg" width="300" height="600">
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/2.jpg" width="300" height="600">
 </p>
 <p float="left">
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/3.jpg" width="300" height="600">
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/4.jpg" width="300" height="600">
-<img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/5.jpg" width="300" height="600">
 </p>
 <p float="left">
+<img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/5.jpg" width="300" height="600">
 <img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/6.jpg" width="300" height="600">
-<img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/7.jpg" width="300" height="600">
 </p>
+<img src="https://github.com/dcipher00/expomovieapp/blob/master/screenshots/7.jpg" width="300" height="600">
