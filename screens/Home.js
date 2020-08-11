@@ -1,7 +1,8 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { Button } from "react-native-elements";
 import { withFirebaseHOC } from "../config/Firebase";
+import Movie from './ApiCalling/Movie';
 
 function Home({ navigation, firebase }) {
   async function handleSignout() {
@@ -15,7 +16,7 @@ function Home({ navigation, firebase }) {
 
   return (
     <View style={styles.container}>
-      <View style={{ paddingTop: 200 }}>
+      <View style={{ paddingTop: 40 }}>
         <Button
           title="Signout"
           onPress={handleSignout}
@@ -24,6 +25,9 @@ function Home({ navigation, firebase }) {
           }}
           type="clear"
         />
+      </View>
+      <View>
+        <Movie />
       </View>
     </View>
   );
