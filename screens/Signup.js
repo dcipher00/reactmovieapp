@@ -6,7 +6,7 @@ import {
   KeyboardAvoidingView,
   ScrollView
 } from "react-native";
-import { Button, CheckBox } from "react-native-elements";
+import { Button } from "react-native-elements";
 import { Ionicons } from "@expo/vector-icons";
 import { Formik } from "formik";
 import * as Yup from "yup";
@@ -24,7 +24,7 @@ const validationSchema = Yup.object().shape({
   email: Yup.string()
     .label("Email")
     .email("Enter a valid email")
-    .required("Please enter a registered email"),
+    .required("Please enter a registration email"),
   phone: Yup.number()
     .label("Phone")
     .required(),
@@ -94,6 +94,10 @@ function Signup({ navigation, firebase }) {
     value: 'Engineer',
   }, {
     value: 'Teacher',
+  }, {
+    value: 'Actor'
+  }, {
+    value: 'Business'
   }];
 
   return (
@@ -196,7 +200,7 @@ function Signup({ navigation, firebase }) {
                   label='Select profession'
                   data={professionData}
                   required={true}
-                  containerStyle={{ marginLeft: 25, marginRight: 25 }}
+                  containerStyle={{ marginLeft: 40, marginRight: 40 }}
                 />
                 <View style={styles.buttonContainer}>
                   <FormButton
@@ -229,7 +233,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    marginTop: 50
+    marginTop: 100
   },
   logoContainer: {
     marginBottom: 15,

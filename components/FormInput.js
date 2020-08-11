@@ -12,22 +12,24 @@ const FormInput = ({
   placeholder,
   ...rest
 }) => (
-  <View style={styles.inputContainer}>
-    <Input
-      {...rest}
-      leftIcon={<Ionicons name={iconName} size={28} color={iconColor} />}
-      leftIconContainerStyle={styles.iconStyle}
-      placeholderTextColor="grey"
-      name={name}
-      placeholder={placeholder}
-      style={styles.input}
-    />
-  </View>
-);
+    <View style={styles.inputContainer}>
+      <Input
+        {...rest}
+        leftIcon={<Ionicons name={iconName} size={22} color={iconColor} />}
+        leftIconContainerStyle={styles.iconStyle}
+        placeholderTextColor="grey"
+        name={name}
+        placeholder={placeholder}
+        style={styles.input}
+      />
+    </View>
+  );
 
 const styles = StyleSheet.create({
   inputContainer: {
-    margin: 15
+    marginRight: 30,
+    marginLeft: 30,
+    marginTop: 10
   },
   iconStyle: {
     marginRight: 10
