@@ -21,7 +21,13 @@ export default class NavigationScreen extends Component {
 
 const AppNavigation = createStackNavigator(
   {
-    Home: Home
+    Home: Home,
+    CompanyInfo: {
+      screen: CompanyInfo
+    },
+    Hoblist: {
+      screen: Hoblist
+    },
   },
   {
     defaultNavigationOptions: ({ navigation }) => {
@@ -40,9 +46,10 @@ const AppNavigation = createStackNavigator(
 );
 
 const AppDrawerNavigator = createDrawerNavigator({
-  Movie: {
+  ReactMovieApp: {
     screen: AppNavigation
   },
+  Home: { screen: Home },
   CompanyInfo: {
     screen: CompanyInfo
   },
